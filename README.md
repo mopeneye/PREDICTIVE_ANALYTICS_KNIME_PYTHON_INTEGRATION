@@ -23,6 +23,8 @@ Belirtilen tüm machine learning adımlarının knime'da uygulanması ve modelle
 
 Knime'da aşağıdakilerin uygulanması gereklidir.
 - Excel Reader node'larının konfigurasyonlarının, verilerin dosya isimleri dikkate alınarak(part1, part2...) güncellenmesi.
+Veriler aşağıdaki linkten alınabilir:
+
 - Python environment konfigurasyonunun Knime'da (File -> Preferences -> knime -> python) konfigure edilmesi gereklidir.
 Knime 
 - python exception'ın eklenmesi. (File -> Install knime extensions) 
