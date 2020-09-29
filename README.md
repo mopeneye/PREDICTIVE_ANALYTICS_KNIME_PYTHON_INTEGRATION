@@ -1,30 +1,27 @@
 # PREDICTIVE_ANALYTICS_KNIME_PYTHON_ENTEGRATION
-Bu proje, machine learning modellerinin knime ve python entegrasyonu kullanılarak uygulanmasını içerir.
+This project involves the implementation of machine learning models using knime and python integration.
 
-Knime analytics platform'da python extension kullanılarak aşağıda belirtilen tüm preprocessing işlemlerinin python'da yapılarak knime'a entegre edillmesi.
+Using the python extension in the knime analytics platform, all the following preprocessing operations are done in python and integrated into knime.
 
-- belirli kolonların silinmesi
-- missing value'ları9n bu8lunması
-- nan odometer değerleri için mean değerlerini hesaplayan fonksiyon
-- calc_nanvalues_mean_func fonksiyonunun her bir satır için çalıştırılması 
-- outlier'ların bulunup gerekli işlemlerin yapılması
-- type conversion
-- one hot encoding
+deletion of specific columns
+Finding missing values
+Function calculating mean values ​​for nan odometer values
+Running calc_nanvalues_mean_func function for each line
+Finding outliers and taking necessary actions
+type conversion
+one hot encoding
+Application of all machine learning steps specified in knime and evaluation of models
 
-Belirtilen tüm machine learning adımlarının knime'da uygulanması ve modellerin değerlendirilmesi
-- data frame concatenation
-- rule based ro0w filpter
-- column filter
-- normalization,
-- Linear regression
-- random forest regression
-- gradient boosted trees regression
-- artificial neural networks  
+data frame concatenation
+rule based ro0w filpter
+column filter
+normalization,
+Linear regression
+random forest regression
+gradient boosted trees regression
+artificial neural networks
+The following should be applied in Knime.
 
-Knime'da aşağıdakilerin uygulanması gereklidir.
-- Excel Reader node'larının konfigurasyonlarının, verilerin dosya isimleri dikkate alınarak(part1, part2...) güncellenmesi.
-Veriler aşağıdaki linkten alınabilir:
-https://drive.google.com/open?id=1yY1wqTtXc3XV4muYzvu6Qk__oD-HGyYf
-- Python environment konfigurasyonunun Knime'da (File -> Preferences -> knime -> python) konfigure edilmesi gereklidir.
-Knime 
-- python exception'ın eklenmesi. (File -> Install knime extensions) 
+Updating the configurations of Excel Reader nodes by considering the file names of the data (part1, part2 ...). The data can be obtained from the following link: https://drive.google.com/open?id=1yY1wqTtXc3XV4muYzvu6Qk__oD-HGyYf
+The Python environment configuration must be configured in Knime (File -> Preferences -> knime -> python). Knime
+Adding the python exception. (File -> Install knime extensions)
